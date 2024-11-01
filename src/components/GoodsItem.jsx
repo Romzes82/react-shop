@@ -11,7 +11,7 @@ function GoodsItem(props) {
     return (
         <div className="card">
             <div className="card-image">
-                <img src={displayAssets[0].url + '100'} alt={name} />
+                <img src={displayAssets[0].url} alt={name} />
             </div>
             <div className="card-content">
                 <span className="card-title">{name}</span>
